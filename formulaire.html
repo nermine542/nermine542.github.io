@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> تقييم الموقع</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h1>تقييم الموقع  </h1>
+    <hr>
+    <ul>
+        <nav>
+        <li> <a href="index.html"|> الصفحة الرئيسية   </a> </li>
+        <li><a href="formulaire.html"> تقييم الموقع </a> </li>
+        </nav>
+    </ul>
+    <hr>
+    </header>
+    <form action="https://example.com" method="post">
+        <label for="prenom"> الاسم : </label>
+        <input type="text" id="prenom" name="prenom" required >
+         <br> <br>
+         <label for="nom">  الاسم العائلي : </label>
+        <input type="text" id="nom" name="nom" required >
+        <br> <br>
+        <label for="date de naissance ">   تاريخ الميلاد : </label>
+        <input type="date" id="date_naissance" name="date_naissance" required >
+        <br> <br>
+        <label for="genre"> الجنس : </label>
+        
+        <input type="radio" name="genre"/> ذكر 
+        <input type="radio" name="genre"/> أنثى
+        <br> <br>
+        <label for="email"> البريد الإلكتروني: </label>
+        <input type="email" id="email" name="email" required >
+        <br> <br>
+        <label for="gouvernorat"> الولاية :  </label>
+        <select name="gouvernorat" id="gouvernorat" required>
+            <option value="Tunisie ">	تونس </option>
+            <option value=" Ariana  ">	أريانة</option>
+            <option value=" Baja ">	 باجة</option>
+            <option value="Ben arous  ">	بن عروس </option>
+            <option value="Bizerte">	بنزرت</option>
+            <option value="Tataouine  ">	 تطاوين</option>
+            <option value="Tozeur ">	 توزر</option>
+            <option value="Zaghouane "> زغوان</option>
+            <option value="Seliana ">	 سليانة</option>
+            <option value="Sousse ">	 سوسة </option>
+            <option value="Sidi bouzid ">	سيدي بوزيد </option>
+            <option value="Sfax ">	صفاقس </option>
+            <option value="Gabes "> قابس </option>
+            <option value="Gbeli ">	 قبلي </option>
+            <option value="Jandouba ">	 جندوبة</option>
+            <option value=" Gassrine  ">	 القصرين</option>
+            <option value=" Gafsa ">	 قفصة </option>
+            <option value="Kairawen   ">	 القيروان </option>
+            <option value="El kef ">	الكاف </option>
+            <option value="Mednine  ">	مدنين </option>
+            <option value="Monastir">	  المنستير </option>
+            <option value="Manouba ">  منوبة </option>
+            <option value="Mahdia ">	 المهدية </option>
+            <option value="Nabeul  ">	 نابل </option>
+
+        </select>
+        <br> <br> 
+
+        <label for="avis">رأيك في الموقع:</label><br>
+        <textarea id="avis" name="avis" rows="4" cols="50" required></textarea>
+        <br><br>
+        <label for="note">التقييم (من 1 إلى 5):</label><br>
+        <select id="note" name="note" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br><br>
+
+        <button class="btn btn-success" type="submit">إرسال</button>
+
+
+
+
+    </form>
+    
+</body>
+
+
+
+
+
+
+</html>

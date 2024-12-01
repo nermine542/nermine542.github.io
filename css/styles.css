@@ -1,0 +1,93 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    background-image: url("img/fond-paillettes-arc-ciel-dessine-main_23-2149693898.avif"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: left; 
+    font-family: 'Arial', sans-serif; 
+    color: #434141; 
+    line-height: 1.6;
+    font-family: "Amiri", serif; 
+}
+header {
+    background-color: #d1e4dd; 
+    color: #88415f; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+header h1 {
+    font-size: 2.5em; 
+    margin: 0; 
+}
+h3 {
+    color: #bd0606;
+    font-size: 1.8em; 
+    font-weight: bold;  
+}
+nav {
+    background-color: #5e57492b;  
+    text-align: center; 
+    padding: 10px 0;  
+}
+nav  a {
+    color: white; 
+    text-decoration: none;  
+    font-weight: bold; 
+    font-size: 1.1em;  
+}
+nav a:hover {
+    color: #4CAF50;  
+}
+footer  a {
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold; 
+    font-size: 1.1em;  
+}
+footer a:hover {
+    color: #4CAF50;  
+}
+
+a {
+    color: rgb(57, 104, 154);  
+    text-decoration: none; 
+    font-weight: bold;  
+    font-size: 1.1em;  
+}
+a:hover {
+    color: #ffffff; 
+}
+footer {
+    color: #4CAF50; 
+    padding: 20px 0; 
+}
+h4{
+    color: #d58b31;
+    font-size: 1.8em; 
+    font-weight: bold; 
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;  
+    }
+
+    header h1 {
+        font-size: 2em; 
+    }
+
+    nav ul {
+        display: block;  
+        padding: 0;
+    }
+
+    nav li {
+        display: block; 
+        margin-bottom: 10px;  
+    }
+
+    img {
+        width: 100%;  
+    }
+}
